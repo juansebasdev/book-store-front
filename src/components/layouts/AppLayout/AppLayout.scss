@@ -1,0 +1,10 @@
+.app_layout-layout {
+    .content-page{
+        overflow: hidden;
+        height: 100vh;
+        .container-children-app-layout{
+            height: calc(100vh - 70px);
+            overflow-y: auto;
+        }
+    }
+}

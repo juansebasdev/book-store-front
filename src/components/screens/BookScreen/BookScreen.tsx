@@ -1,15 +1,12 @@
-import React, { CSSProperties } from "react";
-import AppLayout from "../../layouts/AppLayout/AppLayout";
-import "./BookScreen.scss";
+import AppLayout from "components/layouts/AppLayout/AppLayout";
+import Book from "components/modules/Book/Book";
 
-interface IBookScreenProps {
-  className?: string;
-  style?: CSSProperties;
-  id?: string;
-}
-
-const BookScreen: React.FC<IBookScreenProps> = (props) => {
-  return <AppLayout></AppLayout>;
+const MoviePage: React.FC = () => {
+  return (
+    <AppLayout>
+      <Book />
+    </AppLayout>
+  );
 };
 
-export default BookScreen;
+export default MoviePage;

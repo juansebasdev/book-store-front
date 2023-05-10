@@ -29,6 +29,7 @@ const Books: React.FC<IBooksProps> = (props) => {
   };
 
   let display;
+  console.log(books);
   if (books.length > 0) {
     display = books.map((book: BookTypes.Book) => {
       let { id, image, name, price }: BookTypes.Book = book;

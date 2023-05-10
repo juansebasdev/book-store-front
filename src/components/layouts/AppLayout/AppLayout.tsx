@@ -23,8 +23,8 @@ const AppLayout: React.FC<IAppLayoutProps> = (props) => {
       <div className="content-page">
         <Navbar />
         <div className="container-children-app-layout">{props.children}</div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 };

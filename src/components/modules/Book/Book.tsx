@@ -52,11 +52,13 @@ const Book: React.FC<IBookProps> = (props) => {
             />
           </div>
           <div className="content">
-            <div className="description fs-5">{description}</div>
+            <div className="description fs-5" style={{ textAlign: "justify" }}>
+              {description}
+            </div>
             <div>
               <span className="fw-bold fs-4">Autor: {author}</span>
-            <div className="date fs-5">{`$${price}.00`}</div>
-            <div className="date fs-5">{`Unidades disponibles: ${countInStock}`}</div>
+              <div className="date fs-5">{`$${price}.00`}</div>
+              <div className="date fs-5">{`Unidades disponibles: ${countInStock}`}</div>
             </div>
           </div>
         </div>

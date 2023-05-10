@@ -1,7 +1,7 @@
 import AppLayout from "components/layouts/AppLayout/AppLayout";
 import Book from "components/modules/Book/Book";
 
-const MoviePage: React.FC = () => {
+const BookScreen: React.FC = () => {
   return (
     <AppLayout>
       <Book />
@@ -9,4 +9,4 @@ const MoviePage: React.FC = () => {
   );
 };
 
-export default MoviePage;
+export default BookScreen;

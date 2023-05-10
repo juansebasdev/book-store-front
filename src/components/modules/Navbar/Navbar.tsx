@@ -55,7 +55,14 @@ const Navbar: React.FC<INavbarProps> = (props) => {
                 to="/"
                 className="nav-link"
               >
-                Inicio
+                INICIO
+              </NavLink>
+              <NavLink
+                style={({ isActive }) => (isActive ? activeStyle : undefined)}
+                to="/about"
+                className="nav-link"
+              >
+                ACERCA DE
               </NavLink>
             </div>
           </div>
